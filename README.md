@@ -7,6 +7,6 @@
 ## Objective
 * Detecting Spam Email Based on Message Text
 ## How it Works
-* It converts **text into numbers** using `CountVectorizer`.
+* It converts **text into numbers** using **`CountVectorizer`**.
 * Then it calculates **probability** of a message being spam.
 * Naive Bayes is called "naive" because it **assumes each word is independent**, even though they’re not.
